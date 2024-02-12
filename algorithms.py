@@ -24,9 +24,6 @@ def bubble_sort(array):
     return array
 
 
-my_pairs = []
-
-
 def merge_sort(array, left, right):
     if left < right:
         center = int((left + right) / 2)
@@ -36,7 +33,6 @@ def merge_sort(array, left, right):
 
 
 def merge(array, left, mid, right):
-    my_pairs.append([left, right])
     len1 = mid - left + 1
     len2 = right - mid
 
